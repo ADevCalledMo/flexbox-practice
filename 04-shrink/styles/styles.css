@@ -1,0 +1,25 @@
+body {
+    background: #d3d3ff;
+}
+
+.wrapper {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 1;
+}
+
+.content {  
+    width: 300px; 
+    flex-grow: 1;
+    border-radius: 16px;
+}
+
+.item {
+    border: 2px solid black;
+    height: 32px;
+}
+
+.ball {
+    width: 32px;
+    border-radius: 50%;
+}
