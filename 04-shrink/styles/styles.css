@@ -4,11 +4,13 @@ body {
 
 .wrapper {
     display: flex;
+    height: 100vh;
     gap: 8px;
     flex-shrink: 1;
 }
 
 .content {  
+    align-self: flex-start;
     width: 300px; 
     flex-grow: 1;
     border-radius: 16px;
@@ -22,4 +24,32 @@ body {
 .ball {
     width: 32px;
     border-radius: 50%;
+}
+
+.search-box {
+    display: flex;
+    align-self: flex-end;
+    width: 400px;
+    height: 32px;
+    border: 4px solid green;
+    border-radius: 16px;
+    gap: 2px;
+    padding: 1em;
+}
+
+.search-text {
+    text-align: center;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.form {
+    flex: 3;
+    border: 2px solid orange;
+}
+
+.line {
+    border: 2px solid black;
+    width: 300px;
+    flex: 1;
 }
