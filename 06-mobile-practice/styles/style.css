@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    height: 300px;
+    border: 1px dotted black;
+}
+
+.child {
+    width: 100px; 
+    height: 100px;
+    margin: auto;
+    border: 2px dotted orange;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px; 
+    height: 600px; 
+    background-color: orange;
+    font-size: 3.125rem;
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+
+}
