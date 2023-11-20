@@ -38,3 +38,7 @@
     margin: 1em;
 
 }
+
+nav {
+    display: flex; 
+}
