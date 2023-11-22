@@ -38,16 +38,31 @@ nav {
 /* Nav Bar */
 nav {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    /* justify-content: space-around;
+    align-items: center; */
 }
 
-ul { 
+ul {
     display: flex;
-
-    align-items: flex-end;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: center;
     list-style-type: none;
     gap: 8px;
+    padding: 8px;
 }
+
+li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+li.Logo {
+    margin-right: auto;
+}
+
+
+
 
 
