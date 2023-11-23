@@ -58,8 +58,20 @@ li a {
     font-size: 1.75rem;
 }
 
+nav button {
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 4px;
+    border: 0.5px dotted black;
+}
+
 li.Logo {
     margin-right: auto;
+}
+
+.Logo a {
+    font-size: 3.75rem;
+    letter-spacing: -0.3rem;
 }
 
 
