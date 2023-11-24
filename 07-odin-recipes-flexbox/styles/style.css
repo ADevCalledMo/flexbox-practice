@@ -38,8 +38,6 @@ nav {
 /* Nav Bar */
 nav {
     display: flex;
-    /* justify-content: space-around;
-    align-items: center; */
 }
 
 ul {
@@ -74,7 +72,54 @@ li.Logo {
     letter-spacing: -0.3rem;
 }
 
+/* Responsive Navbar */
 
+/* Medium screens */
+
+@media all and (max-width: 800px) {
+    ul {
+        justify-content: space-around;
+    }
+}
+
+/* Small screens */
+
+@media all and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+}
+
+/* Main */
+
+.main {
+    display: flex;
+}
+
+.main-left {
+    flex: 1;
+    border: 2px dotted purple;
+    margin-right: 4px;
+}
+
+.main-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1;
+    border: 2px dotted purple;
+}
+
+.main-right li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6.75rem;
+    background-color: orange;
+    width: 300px; 
+    height: 300px;
+}
 
 
 
