@@ -123,3 +123,13 @@ li.Logo {
 
 
 
+/* Main Left */
+
+.main-left h1 {
+    font-size: 7rem;
+}
+
+.main-left span {
+    color: orange;
+    text-transform: uppercase;
+}
