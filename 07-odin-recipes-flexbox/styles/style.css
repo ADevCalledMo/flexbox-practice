@@ -129,10 +129,10 @@ li.Logo {
 
 /* Main Left */
 .main-left {
-    text-align: center;
+    text-align: left;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .main-left h1 {
@@ -141,7 +141,15 @@ li.Logo {
     margin-bottom: 16px;
 }
 
+.welcome   {
+    margin-bottom: 8px;
+}
+
 .main-left span {
     color: orange;
     text-transform: uppercase;
+}
+
+.paragraph p {
+    font-size: 2rem;
 }
