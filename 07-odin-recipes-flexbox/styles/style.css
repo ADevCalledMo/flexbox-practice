@@ -32,9 +32,21 @@ nav {
 }
 
 .footer {
+    display: flex;
     height: 20vh;
+    gap: 8px;
 }
 
+.footer div {
+    flex: 1; 
+    border: 2px dotted red;
+}
+
+.center { 
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
 /* Nav Bar */
 nav {
     display: flex;
