@@ -10,13 +10,12 @@
     background-color: rgba(240, 248, 255, 0.699);
     height: 100vh;
     width: 100vw;
-    border: 4px dotted orange;
+    /* border: 4px dotted orange; */
 }
 
 /* Sections */
-
 nav, .main, .footer {
-    border: 2px dotted green;
+    /* border: 2px dotted green; */
     width: 100vw;
     padding: 1rem;
 
@@ -39,7 +38,7 @@ nav {
 
 .footer div {
     flex: 1; 
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 .center { 
@@ -72,7 +71,7 @@ nav button {
     border-radius: 4px;
     padding: 8px 16px;
     margin: 4px;
-    border: 0.5px dotted black;
+    border: 0.5px solid black;
 }
 
 li.Logo {
@@ -106,11 +105,17 @@ li.Logo {
 
 .main {
     display: flex;
+    margin: 0;
+
+}
+
+.main, .footer {
+    background-color: #fff;
 }
 
 .main-left {
     flex: 1;
-    border: 2px dotted purple;
+    /* border: 2px dotted purple; */
     margin-right: 4px;
 }
 
@@ -119,7 +124,7 @@ li.Logo {
     flex-flow: row wrap;
     justify-content: space-around;
     flex: 1;
-    border: 2px dotted purple;
+    /* border: 2px dotted purple; */
 }
 
 .main-right li {
@@ -141,10 +146,11 @@ li.Logo {
 
 /* Main Left */
 .main-left {
-    text-align: left;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 1rem;
 }
 
 .main-left h1 {
