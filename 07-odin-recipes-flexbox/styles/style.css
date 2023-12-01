@@ -51,7 +51,7 @@ nav {
     display: flex;
 }
 
-ul {
+nav ul {
     display: flex;
     width: 100vw;
     justify-content: flex-start;
@@ -87,19 +87,19 @@ li.Logo {
 
 /* Medium screens */
 
-@media all and (max-width: 800px) {
+/* @media all and (max-width: 800px) {
     ul {
         justify-content: space-around;
     }
-}
+} */
 
 /* Small screens */
-
+/* 
 @media all and (max-width: 500px) {
     ul {
         flex-direction: column;
     }
-}
+} */
 
 /* Main */
 
@@ -121,16 +121,17 @@ li.Logo {
 
 .main-right {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: nowrap;
     flex: 1;
-    /* border: 2px dotted purple; */
+    list-style-type: none;
+    gap: 8px;
+    padding: 8px;
 }
 
 .main-right li {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* color: white;
     font-size: 6.75rem;
     background-color: orange; */
