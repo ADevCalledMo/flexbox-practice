@@ -123,6 +123,8 @@ li.Logo {
 .main-right {
   display: flex;
   flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: center;
   flex: 1;
   list-style-type: none;
   gap: 8px;
@@ -130,32 +132,29 @@ li.Logo {
 }
 
 .main-right li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   font-size: 6.75rem;
   background-color: orange;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .main-right img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 /* Main Left */
 .main-left {
-  text-align: right;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .main-left h1 {
   font-size: 7rem;
-  line-height: 5rem;
+  line-height: 5.5rem;
   margin-bottom: 16px;
 }
 
